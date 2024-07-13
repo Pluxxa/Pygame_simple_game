@@ -27,7 +27,7 @@ monster_size = monster_img.get_size()
 monster_position = [screen_width / 2 - monster_size[0] / 2, 50]
 
 # Скорость
-player_speed = 1
+player_speed = 0.3
 
 # Функция для проверки попадания
 def is_hit(player_pos, monster_pos, player_size, monster_size):
